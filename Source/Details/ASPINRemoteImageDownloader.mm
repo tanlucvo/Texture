@@ -24,11 +24,7 @@
 #define PIN_ANIMATED_AVAILABLE 0
 #endif
 
-#if __has_include(<webp/decode.h>)
 #define PIN_WEBP_AVAILABLE  1
-#else
-#define PIN_WEBP_AVAILABLE  0
-#endif
 
 #import <PINRemoteImage/PINRemoteImageManager.h>
 #import <PINRemoteImage/NSData+ImageDetectors.h>
